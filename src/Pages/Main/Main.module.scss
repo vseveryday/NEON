@@ -1,0 +1,22 @@
+.main {
+    color: #1e266d;
+    margin: 50px 0;
+    // background-color: ;
+    .line {
+        margin-bottom: 60px;
+    }
+    img {
+        width: 100%;
+        // margin: 40px;
+    }
+    p, li {
+        font-size: 16px;
+    }
+    ul {
+        padding: 0;
+        list-style: none;
+        li {
+            padding: 10px 0;
+        }
+    }
+}
