@@ -1,8 +1,10 @@
 import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import Loader from "./components/Loader/Loader";
 import MainPage from "./Pages/Main/MainPage";
 import MainLayout from "./layouts/MainLayout";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.scss";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
             <Route
               index
               element={
-                <Suspense fallback={<Loader />}>
+                <Suspense fallback={<div>Идет загрузка...</div>}>
                   <MainPage />
                 </Suspense>
               }
