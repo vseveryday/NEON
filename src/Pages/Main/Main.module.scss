@@ -4,6 +4,7 @@
     background-color: black;
     background: url(/assets/img/city.jpg);
     position: relative;
+    
     &::after {
         content: "";
         position: absolute;
@@ -13,7 +14,18 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.8) linear-gradient(
+            to bottom, 
+            rgb(255, 255, 255, 0) 0%,
+            rgb(255, 255, 255, 0) 20%,
+            rgb(255, 255, 255, 0) 30%,
+            rgb(255, 255, 255, 0) 40%,
+            rgb(255, 255, 255, 0) 50%,
+            
+            rgb(255, 255, 255, 0.1) 60%,
+            
+            rgba(255, 255, 255, 1) 100%
+         );
     }
     p {
         text-align: center;
@@ -34,3 +46,89 @@
         }
     }
   }
+  .nav_pills {
+    --bs-nav-pills-border-radius: 0.375rem !important;
+    --bs-nav-pills-link-active-color: #fff !important;
+    --bs-nav-pills-link-active-bg: #393939 !important;
+    .pill {
+       
+        
+        
+        
+    }
+    
+    
+}
+.about {
+    // background: ;
+    position: relative;
+    &:after {
+        // border-radius: 100px;
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(/assets/img/wE1QS9j_OYWEZmyMR3yAXWcLrWsWY0rpCjqTDqo58mmz1ZQT99u8vKVqT0RhCk04WqzqRbKRtQKKAQAfE19C1iXM.jpg); 
+        width: 100%;
+        height: 100%;
+        opacity : 0.4;
+        z-index: -1;
+    }
+    p {
+        border-radius: 100px;
+        padding: 50px 80px;
+        background-color: #00000076;
+        color: #ffffff;
+    }
+}
+
+.finance {
+    // background: ;
+    position: relative;
+    &:after {
+        // border-radius: 100px;
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(/assets/img/FkobY8fU8U4lvZzWPGvhAtF9AjfxIsuZ7BCtaWeBsFcBbjfLnQzkZZcmunH523WZwX20wy44jsVUKb-BjqmTe2HV.jpg); 
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity : 0.4;
+        z-index: -1;
+    }
+    p {
+        border-radius: 100px;
+        padding: 50px 80px;
+        background-color: #ffffffba;
+        color: #000000;
+    }
+}
+.aravia {
+    // background: ;
+    position: relative;
+    &:after {
+        // border-radius: 100px;
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(/assets/img/xUlogSvtW8R1vtU51E31PUrYY8x6Ik5_20KzmvyYbKjyCP_abbtUJTpAXYAKil-KH4-AsmjpSn3sbACZKi7381HJ.jpg); 
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        opacity : 0.4;
+        z-index: -1;
+    }
+    p {
+        border-radius: 100px;
+        padding: 50px 80px;
+        background-color: #00000076;
+        color: #ffffff;
+    }
+}
+        

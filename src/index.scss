@@ -9,3 +9,11 @@
 body {
 
 }
+a {
+  color: white !important;
+  text-decoration: none !important;
+  &:active {
+    color: white !important;
+  }
+  
+}
